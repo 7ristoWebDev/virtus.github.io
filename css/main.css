@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    padding-top: 45px;
+}
+
+.nav {
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.nav:first-child {
+    margin-right: 16px;
+}
+
+.nav-left {
+    right: 50%;
+    margin-right: 105px;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.nav-right {
+    left: 50%;
+    margin-left: 105px;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.nav-desc {
+    padding: 5px 10px;
+}
+
+nav a {
+    color: #e9e9e9;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+nav a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-top: -22.5px;
+}
+
+.bg-gradient {
+    background-image: linear-gradient(-4deg, #2c3e50 40%, #34495e 40%);
+    height: 100vh;
+    padding-bottom: 100px;
+    min-height: 750px;
+}
+
+.container {
+    height: 100vh;
+    padding: 0;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.index-content {
+    text-align: left;
+    height: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.index-content-right {
+    float: right;
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.index-content-left {
+    float: left;
+    width: 50%;
+    margin-bottom: 0;
+    /*padding-right: 30px;*/
+}
+
+.vertical-align {
+    display: table;
+    border-collapse: collapse;
+    height: 100%;
+}
+
+.vertical-align-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.index-content-title {
+    margin-top: 47vh;
+    margin-bottom: 0.1em;
+    font-size: 42px;
+    line-height: 1.2;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #e9e9e9;
+    
+}
+
+.cta {
+    font-size: 24px;
+    color: #e9e9e9;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.3) 50%);
+    background-repeat: repeat-x;
+    background-size: 2px 8px;
+    background-position: 0 1.3em;
+    background-color: transparent;
+    line-height: 1.8em;
+    padding-bottom: 0.5em;
+}
+
+.vertical-align-content img {
+    width: 150%;
+    height: auto;
+    margin-top: 23.5vh;
+}
+
+img {
+    border: 0;
+}
